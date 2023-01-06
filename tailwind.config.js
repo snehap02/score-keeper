@@ -8,6 +8,10 @@ module.exports = {
       },
       width:{
         secWidth: '450px'
+      },
+      fontFamily:{
+        dmSans: 'DM Sans',
+        poppins: 'Poppins'
       }
     },
   },

@@ -19,19 +19,25 @@
 
 </head>
 <body>
-    <section class="mx-auto border-2 h-secHeight w-secWidth p-2">
-        <img src="/images/pexels-jeshootscom-442576.jpg" alt="game" class="">
-        <h1><span id="player1">0</span> vs <span id="player2">0</span></h1>
-        <select name="" id="selectGoal">
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-        </select>
-        <button id="firstPlayer">Player 1</button>
-        <button id="secondPlayer">Player 2</button>
-        <button id="resetBtn">Reset</button>
+    <section class="mx-auto rounded-lg h-secHeight w-secWidth p-2 mt-2 shadow-xl">
+        <img src="/images/pexels-jeshootscom-442576.jpg" alt="game" class="rounded-lg">
+        <h1 class="text-center font-dmSans font-medium text-4xl mt-6"><span id="player1">0</span> vs <span id="player2">0</span></h1>
+        <div class="flex justify-between px-5 mt-4">
+            <span class="text-xl mt-2 font-medium font-poppins tracking-wide">Playing To</span>
+            <span class="text-4xl font-bold font-poppins">→</span>
+            <select name="" id="selectGoal" class="rounded-lg py-2 px-3 ring-2 outline-none bg-blue-100 text-xl font-poppins font-semibold">
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div class="mt-8 flex justify-around">
+            <button id="firstPlayer" class="font-poppins font-medium tracking-wide text-xl rounded-xl border-2 py-2 px-6 bg-sky-600 text-white cursor-pointer">Player 1</button>
+            <button id="secondPlayer" class="font-poppins font-medium tracking-wide text-xl rounded-xl border-2 py-2 px-6 bg-green-600 text-white cursor-pointer">Player 2</button>
+            <button id="resetBtn" class="font-poppins font-medium tracking-wide text-xl rounded-xl border-2 py-2 px-6 bg-rose-500 text-white cursor-pointer">Reset</button>
+        </div>
     </section>
     
 
